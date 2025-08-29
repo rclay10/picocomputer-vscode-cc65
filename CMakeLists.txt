@@ -10,5 +10,5 @@ rp6502_executable(hello
     RESET 0x200
 )
 target_sources(hello PRIVATE
-    src/main.c
+    src/main.s
 )
